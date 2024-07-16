@@ -769,7 +769,15 @@ h4 {
     text-align: center;
     border-radius: 50%;
 }
-
+.whatsaap {
+    position: fixed;
+    bottom: 28px;
+    right: 95px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 9999;
+    width: 90px;
+}
 @media only screen and (max-width: 1199px) {
     .btn-4 {
         font-size: 16px;
@@ -6789,8 +6797,7 @@ body.active #mobile-nav {
 }
 
 .footer-bg-light.footer-part i.fa {
-    color: ##ffad18;
-    ;
+    color: #ffad18;
 }
 
 .footer-bg-light.footer-part p {
@@ -8953,8 +8960,6 @@ body.active #mobile-nav {
     float: right;
 }
 
-.blog-tag ul {}
-
 .blog-tag li {
     display: inline;
     margin-left: 5px
@@ -9957,8 +9962,6 @@ p.no-support {
 .picing-table .section-head-2-1 {
     margin-bottom: 60px;
 }
-
-.single-table .table-header {}
 
 .single-table .list-part {
     padding: 40px 15px 30px;
@@ -11957,7 +11960,7 @@ p.no-support {
         padding: 90px 0;
     }
     .button{
-        margin-top: 170px;
+        margin-top: 40px;
         .header-link {
             background: #ffad18;
             color: #fff;
@@ -11983,8 +11986,6 @@ p.no-support {
             line-height: 24px;
             color: #ffffff;
             margin: 13px 0;
-            float: left;
-            width: 50%;
         }
     }
     .form-quote{
@@ -12072,7 +12073,7 @@ p.no-support {
     .arrow {
         position: absolute;
         right: 0;
-        top: -44px;
+        bottom: 111%;
         .fa{
             background: #ffad18;
             margin: 0 1px;
